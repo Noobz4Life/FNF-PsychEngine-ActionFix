@@ -63,8 +63,11 @@ jobs:
         run: |
           haxelib setup C:/haxelib
           haxelib install hxcpp > /dev/null --quiet
-          haxelib fixrepo
           haxe -cp ./setup -D analyzer-optimize -main Main --interp
+          
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc --global
+
+          ./setup/setup-windows.bat
         shell: cmd
       - name: Skip SScript setup mode
         run: echo 'oy9:showMacroty8:loopCosti25y10:includeAllfg' >> %USERPROFILE%/settings.cocoa
