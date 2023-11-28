@@ -63,7 +63,7 @@ jobs:
         run: |
           haxelib setup C:/haxelib
           haxelib newrepo
-          haxelib install hxcpp > /dev/null --quiet
+          haxelib install hxcpp --quiet
           haxe -cp ./setup -D analyzer-optimize -main Main --interp
           
           haxelib --global git discord_rpc https://github.com/Aidan63/linc_discord-rpc
