@@ -3,49 +3,47 @@
     {
       "name": "lime",
       "type": "haxelib",
-      "version": "8.0.2"
+      "version": null
     },
     {
       "name": "openfl",
       "type": "haxelib",
-      "version": "9.2.2"
+      "version": null
     },
     {
       "name": "flixel",
       "type": "haxelib",
-      "version": "5.3.1"
+      "version": null
     },
     {
       "name": "flixel-addons",
       "type": "haxelib",
-      "version": "3.2.0"
+      "version": null
     },
     {
       "name": "flixel-tools",
       "type": "haxelib",
-      "version": "1.5.1"
+      "version": null
     },
     {
       "name": "flixel-ui",
       "type": "haxelib",
-      "version": "2.5.0"
+      "version": null
     },
     {
       "name": "hxcpp",
       "type": "haxelib",
-      "version": "4.3.2"
+      "version": null
     },
     {
       "name": "tjson",
       "type": "haxelib",
-      "version": "1.4.0"
+      "version": null
     },
     {
       "name": "hxCodec",
-      "type": "git",
-      "dir": null,
-      "ref": "59ce797f28d39dc96fa67ff589d87d16b17d03ef",
-      "url": "https://github.com/polybiusproxy/hxCodec"
+      "type": "haxelib",
+      "version": null
     },
     {
       "name": "SScript",
@@ -55,7 +53,7 @@
     {
       "name": "hxcpp-debug-server",
       "type": "haxelib",
-      "version": "1.2.4"
+      "version": null
     },
     {
       "name": "discord_rpc",
@@ -65,18 +63,18 @@
       "url": "https://github.com/Aidan63/linc_discord-rpc"
     },
     {
-      "name": "linc_luajit",
-      "type": "git",
-      "dir": null,
-      "ref": "master",
-      "url": "https://github.com/superpowers04/linc_luajit"
-    },
-    {
       "name": "flxanimate",
       "type": "git",
       "dir": null,
       "ref": "dev",
       "url": "https://github.com/ShadowMario/flxanimate"
+    },
+    {
+      "name": "linc_luajit",
+      "type": "git",
+      "dir": null,
+      "ref": "master",
+      "url": "https://github.com/superpowers04/linc_luajit"
     }
   ]
 }
