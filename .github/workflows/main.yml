@@ -67,6 +67,7 @@ jobs:
           haxe -cp ./setup -D analyzer-optimize -main Main --interp
           
           haxelib --global git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hmm
           haxelib run hmm install --global
         shell: cmd
